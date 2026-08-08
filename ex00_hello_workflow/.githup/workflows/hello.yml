@@ -1,0 +1,11 @@
+name: Hello ZeroOps
+on: push
+jobs:
+  build:
+    run-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run: echo "Welcome to ZeroOps!"
+
+
+
