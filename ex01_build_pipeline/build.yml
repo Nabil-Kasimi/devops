@@ -1,0 +1,13 @@
+name: building
+on: push
+jobs:
+  buildPipline:
+    runs-on: ubuntu-latest
+    steps:
+      - run: python --version
+      - run: pwd
+      - run: ls -la
+
+
+
+
