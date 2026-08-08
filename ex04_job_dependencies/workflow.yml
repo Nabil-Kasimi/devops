@@ -7,7 +7,7 @@ jobs:
       - run: echo "Backend tests is passing"
   frontend:
     runs-on: ubuntu-latest
-    depends on: backend
+    needs : backend
     steps:
       - run: echo "Building frontend after backend success"
 
