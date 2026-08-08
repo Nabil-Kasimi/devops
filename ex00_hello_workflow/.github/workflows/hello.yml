@@ -2,6 +2,7 @@ name: Hello ZeroOps
 on: push
 jobs:
   build:
+    name: hello
     runs-on: ubuntu-latest
     steps:
       - run: echo "Welcome to ZeroOps!"
