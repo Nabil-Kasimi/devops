@@ -2,10 +2,10 @@ name: ZeroOps
 on:
   push:
 jobs:
-  env:
-    PROJECT_NAME: ZeroOps
-    AUTHOR: k
   actions:
+    env:
+      PROJECT_NAME: ZeroOps
+      AUTHOR: k
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
