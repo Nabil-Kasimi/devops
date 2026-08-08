@@ -7,10 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-      - run : Pass python-version :'3.11'
-      - run : python --version
-
-
-
-
-
+        with: python --version '3.11'
